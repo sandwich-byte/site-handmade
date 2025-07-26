@@ -58,7 +58,6 @@
 footer {
     background-color: #273A17;
     padding: 64px 0;
-    margin-top: 25px;
 }
 
 .foot {

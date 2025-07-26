@@ -45,4 +45,15 @@ import Product from './Product.vue';
   overflow: hidden;
   position: relative;
 }
+
+.headline {
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 64px;
+    margin-top: 140px;
+}
 </style>
