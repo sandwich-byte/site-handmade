@@ -66,6 +66,7 @@ const toggleLike = () => {
   font-size: 18px;
   align-items: center;
   margin: 0 0 16px 0;
+
 }
 
 .producator img {
