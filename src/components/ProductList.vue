@@ -15,6 +15,7 @@
 
 <script setup>
 import Product from './Product.vue';
+
 </script>
 
 <style scoped>
