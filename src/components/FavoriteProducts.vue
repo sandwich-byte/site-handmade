@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2 class="headline ">Produse Populare</h2>
 
     <div class="container produse">
       <Product></Product>

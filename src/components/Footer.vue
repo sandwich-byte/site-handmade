@@ -3,7 +3,7 @@
         <div class="foot container">
 
             <div class="logo-footer">
-                <img src="./logo1.png" alt="logo">
+                <img src="/logo1.png" alt="logo">
             </div>
 
             <div class="col">
@@ -33,15 +33,15 @@
             <div class="col">
 
                 <div class="social-block">
-                    <img src="./facebook.png">
+                    <img src="/facebook.png">
                     <a href="#">Facebook</a>
                 </div>
                 <div class="social-block">
-                    <img src="./instagram.jpg">
+                    <img src="/instagram.jpg">
                     <a href="#">Instagram</a>
                 </div>
                 <div class="social-block">
-                    <img src="./telegram.jpg">
+                    <img src="/telegram.jpg">
                     <a href="#">Telegram</a>
                 </div>
 
@@ -58,6 +58,7 @@
 footer {
     background-color: #273A17;
     padding: 64px 0;
+    margin-top: 25px;
 }
 
 .foot {

@@ -38,7 +38,7 @@ header {
 .logo {
   width: 177px;
   height: 73px;
-  background-image: url(Frame\ 29.png);
+  /* background-image: url(Frame\ 29.png); */
   background-size: cover;
 }
 
@@ -209,15 +209,6 @@ button {
   row-gap: 38px;
 }
 
-.bg-leaves {
-  background-image: url("./bg-left.png"), url("./bg-right.png");
-  background-position: bottom left, top right;
-  background-repeat: no-repeat;
-
-  background-size: 50%;
-  /* va trebui de scos min-height */
-  min-height: 4000px;
-}
 
 .section-heading {
   font-size: 64px;

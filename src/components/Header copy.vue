@@ -4,12 +4,7 @@
 <template>
   <div class="header-container">
     <header class="container">
-      <div class="logo"> 
-          <router-link to="/">
-            <img src="/public/Frame 29.png">
-          </router-link>
-      </div>
-      
+      <div class="logo"></div>
 
       <div class="search-bar">
         <input type="text">
@@ -24,15 +19,12 @@
       </div>
 
       <div class="user-button">
-        <router-link to="favourites">
-          <svg class="user-button1" width="28" height="23" viewBox="0 0 28 23" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M12.0053 1.72658L14 2.86177L15.9947 1.72658C19.6633 -0.361163 24.3542 0.87779 26.4722 4.49386C28.208 7.45729 27.708 11.2004 25.2533 13.62L18.2119 20.5607C15.876 22.8632 12.124 22.8632 9.788 20.5607L2.74668 13.62C0.291958 11.2004 -0.207982 7.45729 1.52777 4.49386C3.6458 0.87779 8.33673 -0.361163 12.0053 1.72658Z"
-              fill="#B42F2F" />
-          </svg>
-        </router-link>
-
+        <svg class="user-button1" width="28" height="23" viewBox="0 0 28 23" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12.0053 1.72658L14 2.86177L15.9947 1.72658C19.6633 -0.361163 24.3542 0.87779 26.4722 4.49386C28.208 7.45729 27.708 11.2004 25.2533 13.62L18.2119 20.5607C15.876 22.8632 12.124 22.8632 9.788 20.5607L2.74668 13.62C0.291958 11.2004 -0.207982 7.45729 1.52777 4.49386C3.6458 0.87779 8.33673 -0.361163 12.0053 1.72658Z"
+            fill="#B42F2F" />
+        </svg>
         <img src="/cos.png">
         <button>Sign up</button>
         <button>Log in</button>
@@ -132,7 +124,7 @@ input:focus {
 .logo {
   width: 177px;
   height: 73px;
-  /* background-image: url(Frame\ 29.png); */
+  background-image: url(Frame\ 29.png);
   background-size: cover;
 }
 </style>
