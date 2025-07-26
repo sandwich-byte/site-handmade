@@ -1,28 +1,21 @@
- <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-//  const producatorNume = "Irina Cojocari";
-//  const produsNume = "Suport handmade din lemn";
-//  const descriere = "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
-//  const pret = "250MDL";
-const favorite = ref(false);
-</script>
-
 <template>
 <div class="produs">
   <div class="producator">
-    <img src="producator.png" alt="Producător">
+    <img src="../assets/producator.png" alt="Producător">
     <span>Irina Cojocari</span>
   </div>
 
   <div class="img-container">
-    <img src="Rectangle 15.png" alt="Suport handmade din lemn">
+    <img src="../assets/Rectangle 15.png" alt="Suport handmade din lemn">
     
     <div class="price-tag">250MDL</div>
     
-    <div class="favorites">
+    <div class="favorites" @click="toggleLike">
       <svg width="27" height="22" viewBox="0 0 27 22" fill="none">
         <path d="M1.89062 4.49951C3.72859 1.36158 7.81221 0.275028 11.0107 2.09521L13.0049 3.23096L13.5 3.51221L13.9941 3.23096L15.9893 2.09521C19.1878 0.275028 23.2714 1.36158 25.1094 4.49951C26.6124 7.06588 26.182 10.3077 24.0518 12.4077L17.0098 19.3481C15.0631 21.2669 11.9369 21.2669 9.99023 19.3481L2.94824 12.4077C0.818031 10.3077 0.387561 7.06587 1.89062 4.49951Z" 
-              stroke="#2E2917" stroke-width="2"/>
+              stroke="#2E2917" stroke-width="2"
+              :fill="isLiked ? '#FF0000' : 'transparent'"
+              :stroke="isLiked ? '#FF0000' : '#2E2917'"/>
       </svg>
     </div>
   </div>
@@ -33,6 +26,27 @@ const favorite = ref(false);
   </div>
 </div>
 </template>
+
+<script setup>
+
+
+const props = defineProps({
+  product: {
+    type: Object,
+    required: true
+  }
+});
+
+const emit = defineEmits(['toggle-like']);
+
+
+const toggleLike = () => {
+  isLiked.value = !isLiked.value;
+  emit('toggle-like', props.product.id);
+};
+
+
+</script>
 
 <style scoped>
 .produs {
