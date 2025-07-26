@@ -16,7 +16,6 @@ import Title from '@/components/Title.vue';
 </script>
 
 <style scoped>
-
 .bg-leaves {
   background-image: url("/bg-left.png"), url('/bg-right.png');
   background-position: bottom left, top right;

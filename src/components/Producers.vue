@@ -83,7 +83,6 @@
     margin-bottom: 48px;
     font-size: 64px;
     margin-top: 5px;
-
 }
 
 .producator {

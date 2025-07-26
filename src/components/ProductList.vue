@@ -13,21 +13,9 @@
 
 <script setup>
 import Product from './Product.vue';
-
 </script>
 
 <style scoped>
-.headline {
-  color: white;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: capitalize;
-  text-align: center;
-  margin-bottom: 48px;
-  font-size: 64px;
-  margin-top: 219px;
-}
-
 .produs img {
   width: 100%;
   height: 100%;

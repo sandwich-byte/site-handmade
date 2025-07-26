@@ -65,6 +65,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .logo-footer img {
