@@ -15,7 +15,6 @@
 
 <script setup>
 import Product from './Product.vue';
-
 </script>
 
 <style scoped>
@@ -58,13 +57,5 @@ import Product from './Product.vue';
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-}
-
-.bg-leaves {
-  background-image: url("/bg-left.png"), url("/bg-right.png");
-  background-position: bottom left, top right;
-  background-repeat: no-repeat;
-
-  background-size: 50%;
 }
 </style>
