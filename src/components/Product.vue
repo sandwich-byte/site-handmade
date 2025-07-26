@@ -32,10 +32,20 @@
 </template>
 
 <script setup>
+const props = defineProps({
+  product: {
+    type: Object,
+    required: true
+  }
+});
+
+const emit = defineEmits(['toggle-like']);
 
 
-
-
+const toggleLike = () => {
+  isLiked.value = !isLiked.value;
+  emit('toggle-like', props.product.id);
+};
 </script>
 
 <style scoped>
