@@ -1,15 +1,17 @@
 <template>
-  <h2 class="headline ">Produse Populare</h2>
-    
+  <div class="bg-leaves">
+    <h2 class="headline ">Produse Populare</h2>
+
     <div class="container produse">
-        
-        <Product></Product>
-        <Product></Product>
-        <Product></Product>
-        <Product></Product>
-        <Product></Product>
+
+      <Product></Product>
+      <Product></Product>
+      <Product></Product>
+
     </div>
+  </div>
 </template>
+
 
 <script setup>
 import Product from './Product.vue';
@@ -57,4 +59,11 @@ import Product from './Product.vue';
   position: relative;
 }
 
+.bg-leaves {
+  background-image: url("/bg-left.png"), url("/bg-right.png");
+  background-position: bottom left, top right;
+  background-repeat: no-repeat;
+
+  background-size: 50%;
+}
 </style>
