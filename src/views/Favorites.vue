@@ -2,8 +2,7 @@
     <Layout>
         <Title />
         <div class="bg-leaves">
-            <Producers />
-            <h2 class="headline ">Produse Populare</h2>
+            <h2 class="headline">Favoritele mele</h2>
             <ProductList />
         </div>
     </Layout>
@@ -12,8 +11,7 @@
 <script setup>
 import Layout from './Layout.vue';
 import ProductList from '@/components/ProductList.vue';
-import Producers from '@/components/Producers.vue';
-import Title from '@/components/Title.vue';
+
 </script>
 
 <style scoped>

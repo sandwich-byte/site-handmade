@@ -58,12 +58,14 @@
 footer {
     background-color: #273A17;
     padding: 64px 0;
+    margin-top: 40px;
 }
 
 .foot {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .logo-footer img {
